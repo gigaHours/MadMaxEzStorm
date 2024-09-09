@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mm_plugin", "mm_plugin.vcxproj", "{DCCA37C9-4C96-482D-9EB7-EDFEF167CF08}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "AVAMain", "..\..\..\Program Files (x86)\Steam\steamapps\common\Mad Max\AVAMain.exe", "{92C3BDF2-0E25-499D-BC3C-3C060ABB6308}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Program Files (x86)\Steam\steamapps\common\Mad Max\AVAMain.exe
+		RemoteMachine = GENERAL
+		StartingDirectory = C:\Program Files (x86)\Steam\steamapps\common\Mad Max
+		Environment = По умолчанию
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCCA37C9-4C96-482D-9EB7-EDFEF167CF08}.Debug|x64.ActiveCfg = Debug|x64
+		{DCCA37C9-4C96-482D-9EB7-EDFEF167CF08}.Debug|x64.Build.0 = Debug|x64
+		{DCCA37C9-4C96-482D-9EB7-EDFEF167CF08}.Release|x64.ActiveCfg = Release|x64
+		{DCCA37C9-4C96-482D-9EB7-EDFEF167CF08}.Release|x64.Build.0 = Release|x64
+		{92C3BDF2-0E25-499D-BC3C-3C060ABB6308}.Debug|x64.ActiveCfg = Release|x64
+		{92C3BDF2-0E25-499D-BC3C-3C060ABB6308}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {308AEC9D-C2AC-4DA0-A985-11A24036EB40}
+	EndGlobalSection
+EndGlobal
